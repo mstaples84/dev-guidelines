@@ -1,4 +1,4 @@
-# Request Workflow Definition
+# Feature Request Workflow Definition
 The Guidelines are defined to onboard developers to the Main development process and structure incoming requests from other departments.
 They are publicly available because they are anonymous and team members should be able to easily access them.
 ## Table of Contents
