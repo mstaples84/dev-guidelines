@@ -136,7 +136,7 @@ The effort of prototyping ideally is kept at a minimum.
 Depending on organizational decisions, R-Ticket creators (or their departments) are held credible or accountable. Although validation is no guarantee for success, it minimizes the risks and is therefore recommended.
 
 ## Create PBI Tickets
-A PBI-Ticket (Product Backlog Information) is essential for developers to implement a feature. It differs from the R-Ticket by including more technical details and the results from prioritizing.
+A PBI-Ticket (Product Backlog Item) is essential for developers to implement a feature. It differs from the R-Ticket by including more technical details and the results from prioritizing.
 Depending on the organizational structure, the Ticket must include meta information that are appended as fields.
 PBI Tickets are created by lead developers or project managers. The ticket contains sub tickets that are assigned to specific team members of the development and/or test team. 
 It's a two layered ticket with general information saved in the main PBI Ticket and specific information or notes of the team members in the assigned sub tickets. 
