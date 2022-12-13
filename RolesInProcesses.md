@@ -1,0 +1,12 @@
+# Roles in Processes
+
+| Process        | Creator                      | Owner                        | Product Management      | Project Manager                              | Developer                                  | Tester                                         | Decider        |
+|----------------|------------------------------|------------------------------|-------------------------|----------------------------------------------|--------------------------------------------|------------------------------------------------|----------------|
+| Idea or Need   | Create R-Ticket              |                              |                         |                                              |                                            |                                                |                |
+| Prioritization | Explain / Answer Questions   | Take Ownership               | Analyse / Ask Questions | Analyse / Ask Questions                      | Analyse / Ask Questions                    | Analyse / Ask Questions                        | Make Decisions |
+| Validation     | Approve Validation Concept   | Approve Validation Concept   | Organize Validation     | <strong>Optional</strong>, enable Validation | <strong>Optional</strong>, Build Prototype | <strong>Optional</strong>, Participate in Test |                |
+| PBI-Ticket     |                              |                              | Create PBI-Ticket       | Create PBI-Ticket                            |                                            |                                                |                |
+| Dev-Tasks      |                              |                              |                         | Create Tasks                                 | <strong>Optional</strong>, Discuss Tasks   | <strong>Optional</strong>, Discuss Tasks       |                |
+| Development    |                              |                              |                         |                                              | Develop Solutions by Tasks                 | Test functionality and use-cases               |                |
+| Roll-Out       | Approve (Definition of Done) | Approve (Definition of Done) | Support                 | Monitor Deployment / Inform                  | Deploy and fix critical issues             | Support developer, Run tests                   | Approve        |
+

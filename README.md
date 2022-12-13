@@ -42,6 +42,8 @@ The process details give you an insight on the steps defined in the graph.
 The workflow described is used for new feature requests. 
 Bugreports and Error handling are described [here](ErrorHandling.md).
 
+Receive an overview of the responsibilities [here](RolesInProcesses.md).
+
 ### Idea or Need
 Any person or department wanting to submit an idea or a need, must input an R-Ticket (request ticket). 
 The R-Ticket is submitted to the inbox backlog and discussed between the creator and the product manager.
@@ -59,7 +61,10 @@ to the later process of Prioritizing.
 R-Tickets are marked in the Board with an [R] prefix.
 
 ### Prioritize tickets
-In the prioritization process, tickets are reviewed by the product management and deciders. 
+In the prioritization process, tickets are reviewed by the product management, the creator and deciders. 
+Prerequisites and individual tasks of the team involved are deliverables of this process. 
+Consider all peers connected to the R-Ticket, <strong>important:</strong> involve peers (stakeholders) with possible collateral effect. 
+
 Prioritization is done using the Eisenhower Matrix. 
 
 The x-axis represents the urgency and the y-axis the importance.
@@ -99,7 +104,9 @@ The estimation is a crucial part of prioritizing. It is used to allocate:
 1. the cost-benefit ratio,
 2. bound resources,
 3. duration,
-4. total costs.
+4. total costs,
+5. Who is in charge of the ticket,
+6. Role assignments.
 
 The R-Ticket owner will be contacted by the product management with the estimate and must approve or decline the Ticket.
 Declined tickets are saved to a declined backlog. The final reason of declination should be written in a comment for future 
@@ -134,7 +141,7 @@ complete prototype for the later development of the feature.
 The effort of prototyping ideally is kept at a minimum.
 
 ### Benefits of validating
-Depending on organizational decisions, R-Ticket creators (or their departments) are held credible or accountable. Although validation is no guarantee for success, it minimizes the risks and is therefore recommended.
+Depending on organizational decisions, R-Ticket owners (or their departments) may be held credible or accountable. Although validation is no guarantee for success, it minimizes the risks and is therefore recommended.
 
 ## Create PBI Tickets
 A PBI-Ticket (Product Backlog Item) is essential for developers to implement a feature. It differs from the R-Ticket by including more technical details and the results from prioritizing.
@@ -142,7 +149,7 @@ Depending on the organizational structure, the Ticket must include meta informat
 PBI Tickets are created by lead developers or project managers. The ticket contains sub tickets that are assigned to specific team members of the development and/or test team. 
 It's a two layered ticket with general information saved in the main PBI Ticket and specific information or notes of the team members in the assigned sub tickets. 
 
-Typically, a PBI Ticket has at least two sub tickets, one for the developer and one for the tester. Both interact via the main ticket. The main ticket is the single source of truth.
+Typically, a PBI-Ticket has at least two sub tickets, one for the developer and one for the tester. Both interact via the main ticket. The main ticket is the single source of truth.
 
 The PBI Ticket is created using the KanBan Board set up for the specific project.
 
@@ -200,5 +207,6 @@ When finished, don't move the PBI-Ticket, only move the Task Ticket.
 
 # Read more
 [Bug report and error handling](ErrorHandling.md)<br/>
-[TdDos for process owners](ToDo.md)
+[TdDos for process owners](ToDo.md)<br/>
+[Responsibilities of Roles](RolesInProcesses.md)
   
