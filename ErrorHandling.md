@@ -5,6 +5,7 @@ This document describes how to handle Bugs and Errors.
 1. [Difference Bug / Error](#bugs-vs-errors-the-difference)
 2. [Errors](#errors)
 3. [Bugs](#bugs)
+4. [Read more](#read-more)
 
 ## Bugs vs Errors, the difference
 A Bug is an identified, technical issue that breaks functionality.
@@ -30,3 +31,5 @@ Developers select bugs to fix by this criteria:
 1. The module or feature effected: The developer possibly most familiar with the feature will be assigned.
 2. Criticality: Critical bug tickets first, then medium, and finally low.
 
+# Read more
+[Home](README.md)
