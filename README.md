@@ -23,7 +23,7 @@ They are publicly available because they are anonymous and team members should b
 11. [Read more](#read-more)
 
 ## Basic Workflow
-Details to on each step are described below the graph.
+Details of each step are described below the graph.
 ```mermaid
 graph TD
     A[Idea or Need] -->|Create request Ticket| B(Prioritization Process)
