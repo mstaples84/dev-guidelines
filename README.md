@@ -1,5 +1,5 @@
 # Feature Request Workflow Definition
-The Guidelines are defined to onboard developers to the Main development process and structure incoming requests from other departments.
+The Guidelines are defined to onboard developers, testers and partially any demanding person or department to the Main development process and structure incoming requests from other departments.
 They are publicly available because they are anonymous and team members should be able to easily access them.
 ## Table of Contents
 1. [Basic Workflow (graph)](#basic-workflow)
@@ -18,8 +18,9 @@ They are publicly available because they are anonymous and team members should b
 8. [Development](#development)<br/>
 [Versioning](#versioning)<br/>
 [Branching](#branching)
-9. [Read more](#read-more)
-
+9. [Rules by Role](#rules-by-role)
+10. [Benefits](#benefits-of-this-workflow)
+11. [Read more](#read-more)
 
 ## Basic Workflow
 Details to on each step are described below the graph.
@@ -39,7 +40,7 @@ graph TD
 ## Process Details
 The process details give you an insight on the steps defined in the graph. 
 The workflow described is used for new feature requests. 
-Bugreports and Error handling is described [here](ErrorHandling.md).
+Bugreports and Error handling are described [here](ErrorHandling.md).
 
 ### Idea or Need
 Any person or department wanting to submit an idea or a need, must input an R-Ticket (request ticket). 
@@ -172,6 +173,30 @@ Automatically managed by the repository and assigned after a merge to the master
 ### Branching
 Branches are named by the Ticket number of the PBI. If it's a hotfix, it should be prefixed with [HF].
 If the ticket origins from a R-Ticket, it is prefixed [R].
+
+# Rules by Role
+## Sales and Marketing
+Tickets must be input by form or, if technically provided, email. Other ticket submissions may not be complied.
+
+## Product Management
+All R-Tickets must be reviewed and prioritized involving at least one developer and, if given, a tester. 
+Further, the project management must be involved and approve available resources. Before forwarding the ticket to validation or creating a PBI-Ticket, 
+it needs to be approved by the creator.
+
+## Development
+If a Ticket contains uncertainty, clarify it first, before beginning. 
+If too many or a major uncertainties impact the productivity in development, return the ticket to the product manager with comments about the uncertainties. 
+Comment in the PBI-Ticket, not in the Task Ticket. When finished, don't move the PBI-Ticket, only the Task Ticket.
+
+## Tester
+Same rules as for developers apply. If there's too much uncertainty, return the ticket to the product manager with a comment in the PBI-Ticket, not the Task Ticket.
+When finished, don't move the PBI-Ticket, only move the Task Ticket.
+
+# Benefits of this Workflow
+* This workflow prevents blocking development by overloading the input stream with new requests. It structures work and time, enabling a more compulsory release plan.
+* Sales, Marketing, or other requesting parties may take risk on requesting new features but can benefit of their success. 
+* Developers are more focused and in effect more productive.
+* The Management has access to better KPIs and more transparency in ongoing product development. 
 
 # Read more
 [Bug report and error handling](ErrorHandling.md)<br/>
