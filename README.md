@@ -5,7 +5,7 @@ They are publicly available because they are anonymous and team members should b
 1. [Basic Workflow (graph)](#basic-workflow)
 2. [Process details](#process-details)
 3. [Idea or Need (R-Ticket)](#idea-or-need)<br/>
-[Submit a R-Ticket](#submit-a-r-ticket)
+[Submit an R-Ticket](#submit-an-r-ticket)
 4. [Prioritization](#prioritize-tickets)<br/>
 [Estimation](#estimate-tickets)
 5. [Validation](#validate-tickets)<br/>
@@ -48,8 +48,8 @@ Receive an overview of the responsibilities [here](RolesInProcesses.md).
 Any person or department wanting to submit an idea or a need, must input an R-Ticket (request ticket). 
 The R-Ticket is submitted to the inbox backlog and discussed between the creator and the product manager.
 
-#### Submit a R-Ticket
-R-Tickets are submitted using a ticket form. The <strong>link to the form</strong> is protected by individual user credentials.
+#### Submit an R-Ticket
+R-Tickets are submitted using the ticket form. The <strong>link to the form</strong> is protected by individual user credentials.
 To receive access, <strong>contact the product management</strong>. Input at least the mandatory fields and send the request.
 
 Prioritizing tickets at this point isn't possible. The priority is calculated by the system based on the input. 
@@ -193,7 +193,7 @@ it needs to be approved by the creator.
 ## Development
 If a Ticket contains uncertainty, clarify it first, before beginning. 
 If too many or a major uncertainties impact the productivity in development, return the ticket to the product manager with comments about the uncertainties. 
-Comment in the PBI-Ticket, not in the Task Ticket. When finished, don't move the PBI-Ticket, only the Task Ticket.
+Comment in the PBI-Ticket, not in the Task Ticket. When finished, don't move the PBI-Ticket, only the Task Ticket. Create a Task Ticket for the Tester, describe what to test.
 
 ## Tester
 Same rules as for developers apply. If there's too much uncertainty, return the ticket to the product manager with a comment in the PBI-Ticket, not the Task Ticket.
@@ -208,5 +208,5 @@ When finished, don't move the PBI-Ticket, only move the Task Ticket.
 # Read more
 [Bug report and error handling](ErrorHandling.md)<br/>
 [TdDos for process owners](ToDo.md)<br/>
-[Responsibilities of Roles](RolesInProcesses.md)
+[Responsibilities by Roles](RolesInProcesses.md)
   
