@@ -157,7 +157,7 @@ The PBI Ticket is created using the KanBan Board set up for the specific project
 As described in the section Creating PBI Tickets, each PBI Ticket has sub tickets. These sub tickets are also referred to as Tasks. In this specific Process, sub tickets are assigned to developers, after discussing details about the PBI with the team.
 The developer (or tester) only works with this ticket. The main ticket is not moved within the board without the developer and tester agreeing and the lead developer confirming the next step on the board.
 
-## Development
+## Developers
 Developers working on ongoing PBI Tickets with assigned tasks, are blocked for other PBIs, unless their task is finished or waiting for any dependency. 
 If the task of a developer is fully closed, other PBIs can be assigned. If the developer has parked the ticket, because of missing prerequisites or missing input, assignments must be discussed with the team lead.
 
